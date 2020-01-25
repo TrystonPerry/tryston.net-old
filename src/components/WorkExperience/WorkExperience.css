@@ -1,0 +1,37 @@
+.work-experience h2 {
+  margin-top: 0;
+}
+
+.work-experience__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.work-item__title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.work-item__title * {
+  padding-right: 0.75rem;
+}
+
+.work-item__title h3 {
+  margin: 0;
+}
+
+.work-item__time {
+  text-transform: uppercase;
+  opacity: 0.75;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  display: block;
+  font-family: sans-serif;
+}
+
+.work-item__duties li {
+  margin: 0.5rem 0;
+}

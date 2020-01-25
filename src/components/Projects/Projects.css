@@ -1,0 +1,59 @@
+.projects h2 {
+  margin-top: 0;
+}
+
+.projects ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin: 0 -1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  padding: 0;
+  transition-duration: 200ms;
+  width: calc(100% - 2rem);
+  flex-shrink: 0;
+}
+
+@media screen and (min-width: 600px) {
+  .project {
+    width: calc(50% - 2rem);
+  }
+}
+
+.project:hover {
+  transform: scale(1.02);
+}
+
+.project a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+}
+
+.project__info {
+  padding: 1rem;
+}
+
+.project__info h3 {
+  margin: 0 0 0.5rem 0;
+}
+
+.project__info span {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 0.9rem;
+  opacity: 0.75;
+}
+
+.project__info p {
+}

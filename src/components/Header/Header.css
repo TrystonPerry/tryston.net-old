@@ -1,0 +1,99 @@
+@media screen and (min-width: 600px) {
+  .header {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.header__headshot {
+  width: 100%;
+  max-width: 5rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.header__name {
+  margin: 0;
+  margin-bottom: 0.4rem;
+}
+
+.header__subline {
+  margin: 0;
+}
+
+.header__section-label {
+  margin: 1rem 0 0.5rem 0;
+  font-size: 1.3rem;
+}
+
+.header__social {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header__social-item {
+  display: inline-block;
+  padding-right: 0.5rem;
+}
+
+.header__cta {
+  text-align: center;
+}
+
+.header__email-me {
+  margin: 2rem 0;
+  padding: 1rem 1.5rem;
+  background: #009dee;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+  transition-duration: 200ms;
+}
+
+@media screen and (min-width: 600px) {
+  .header__cta {
+    text-align: left;
+  }
+}
+
+.header__email-me:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.15);
+}
+
+.header__skills {
+  text-align: center;
+}
+
+.header__skills-text {
+  margin-top: 0;
+}
+
+.header__skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header__skills-item {
+  display: inline-block;
+  padding-left: 0.5rem;
+}
+
+@media screen and (min-width: 600px) {
+  .header__skills {
+    width: 35%;
+    flex-shrink: 0;
+    text-align: right;
+    margin-left: 2rem;
+  }
+
+  .header__skills-list {
+    max-width: 200px;
+    margin-left: auto;
+  }
+}
