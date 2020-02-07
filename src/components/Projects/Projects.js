@@ -28,7 +28,7 @@ export default class Projects extends React.Component {
                   <h3>{ project.name }</h3>
                     <span>
                       { project.startDate }
-                      { project.endDate ? project.endDate : "" }
+                      { project.endDate ? ' - ' + project.endDate : "" }
                     </span>
                   <p>{ project.description }</p>
                   </div>
