@@ -4,12 +4,12 @@ export default class Skills extends React.Component {
   render() {
     const renderSkill = skillName => {
       return (
-        <div>
+        <div key={ skillName }>
           <h3>{ skillName }</h3>
           <ul className="header__skills-list">
             { this.props.skills[skillName].map(
               skill => 
-                <li className="header__skills-item">{ skill }</li>
+                <li key={ skill } className="header__skills-item">{ skill }</li>
               )
             }
           </ul>

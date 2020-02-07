@@ -1,7 +1,7 @@
 export default {
   header: {
     info: {
-      headshotURL: "https://cdn1.oneprofile.info/users/avatars/230/large/edEc1d0C_400x400.jpg?1578343462",
+      headshotURL: "/images/me.jpg",
       name: "Tryston Perry",
       title: "Full Stack Developer",
       about: `
@@ -51,34 +51,39 @@ export default {
   projects: [
     {
       name: "PlaySpace",
-      imageURL: "",
+      imageURL: "/images/playspace.jpg",
+      link: "https://playspace.tv",
       startDate: "April 2019",
       endDate: "Present",
       description: "Over the last year, I have single handedly built a platform for streaming games, watching videos, and chatting with friends from the comfort of your web browser."
     },
     {
       name: "San Diego Zoohackaton",
-      imageURL: "",
+      imageURL: "/images/zoohackathon.jpg",
+      link: "https://youtu.be/Rsst11LyNuY",
       startDate: "November 8",
       endDate: "10 2019",
       description: "I participated in a hackathon with one other person on myteam. Our goal was to create a webapp that gamified the collection of animal trafficking data. It was built in a Vue front-end with Airtable as the database. We didn’t win, but I did pull off my longest coding stretch of 7am - 1am that I am very proud of."
     },
     {
       name: "MMXX Fashion",
-      imageURL: "",
+      imageURL: "/images/mmxx.jpg",
+      link: "https://2020.fashion",
       startDate: "January 2020",
       description: "Designed a static landing page for my friends clothing brand with vanilla HTML/CSS. -Created an email list sign up form that submits to an airtable back-end via a webhook."
     },
     {
       name: "My Presentations",
-      imageURL: "",
+      imageURL: "/images/presentations.jpg",
+      link: "https://github.com/trystonperry/presentations",
       startDate: "June 2019",
       endDate: "Present",
       description: "A collection of all the presentations / talks I've given at local meetups or online."
     },
     {
       name: "Boarditt",
-      imageURL: "",
+      imageURL: "/images/boarditt.jpg",
+      link: "https://boarditt.com",
       startDate: "September",
       endDate: "October 2018",
       description: "Boarditt is a simple, yet powerful Task Management WebApp. The front-end is build with Angular 5 as a SPA. Using components and services to neatly organize data handled from it's back-end API. The back-end uses Node.js, Express.js, and MongoDB to form an API for accessing data like Boards, Lists, and Todos."

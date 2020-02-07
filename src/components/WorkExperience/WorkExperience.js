@@ -11,7 +11,7 @@ export default class Card extends React.Component {
       return (
         work.map(item => {
           return (
-            <li className="work-experience__list-item">
+            <li key={ item.company } className="work-experience__list-item">
               <div className="work-item__title">
                 <h3>{ item.company }</h3>
                 <span>{ item.title }</span>
@@ -27,7 +27,7 @@ export default class Card extends React.Component {
                 { item.startDate } - { item.endDate }
               </span>
               <ul className="work-item__duties">
-               { item.points.map(point => <li>{ point }</li>) }
+               { item.points.map(point => <li key={ point }>{ point }</li>) }
               </ul>
             </li>
           )

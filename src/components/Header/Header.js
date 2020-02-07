@@ -11,7 +11,7 @@ export default class Header extends React.Component {
     const { header } = data
 
     function createSocialLinks() {
-      return header.social.map(social => <ExternalLink social={social} />) 
+      return header.social.map(social => <ExternalLink key={ social.text } social={social} />) 
     }
 
     return (
