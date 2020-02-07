@@ -4,10 +4,10 @@ import './Projects.css';
 export default class Projects extends React.Component {
   render() {
     return (
-      <div class="projects card">
+      <div className="projects card">
         <h2>Projects</h2>
         <ul>
-          <li class="card project">
+          <li className="card project">
             <a
               href="https://playspace.tv"
               target="_blank"
@@ -28,7 +28,7 @@ export default class Projects extends React.Component {
               </div>
             </a>
           </li>
-          <li class="card project">
+          <li className="card project">
             <a
               href="https://youtu.be/Rsst11LyNuY"
               target="_blank"
@@ -52,7 +52,7 @@ export default class Projects extends React.Component {
               </div>
             </a>
           </li>
-          <li class="card project">
+          <li className="card project">
             <a
               href="https://2020.fashion"
               target="_blank"
@@ -73,7 +73,7 @@ export default class Projects extends React.Component {
               </div>
             </a>
           </li>
-          <li class="card project">
+          <li className="card project">
             <a
               href="https://github.com/TrystonPerry/presentations"
               target="_blank"
@@ -93,7 +93,7 @@ export default class Projects extends React.Component {
               </div>
             </a>
           </li>
-          <li class="card project">
+          <li className="card project">
             <a
               href="https://boarditt.com"
               target="_blank"

@@ -4,11 +4,11 @@ import './WorkExperience.css';
 export default class Card extends React.Component {
   render() {
     return (
-      <div class="work-experience card">
+      <div className="work-experience card">
         <h2>Work Experience</h2>
         <ul className="work-experience__list">
           <li className="work-experience__list-item">
-            <div class="work-item__title">
+            <div className="work-item__title">
               <h3>Nanome Inc.</h3>
               <span>Front-End Developer</span>
               <a
@@ -20,7 +20,7 @@ export default class Card extends React.Component {
               </a>
             </div>
             <span className="work-item__time">March 2019 - January 2020</span>
-            <ul class="work-item__duties">
+            <ul className="work-item__duties">
               <li>
                 Built new landing page designs in Figma, went through
                 iterations, and implemented them in a Vue.js front-end.
