@@ -8,10 +8,12 @@
   margin: 0;
 }
 
-.work-item__title {
-  display: flex;
-  align-items: center;
-  margin-bottom: 0.5rem;
+@media screen and (min-width: 600px) {
+  .work-item__title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
 }
 
 .work-item__title * {

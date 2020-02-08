@@ -1,0 +1,33 @@
+.talk h2 {
+  margin-top: 0;
+}
+
+.talk .yt-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+
+.talk .yt-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.talk__title {
+  display: inline-block;
+  margin: 1rem 1rem 0.5rem 0;
+}
+
+.talk__date {
+  font-weight: bold;
+  opacity: 0.75;
+}
+
+.talk__desc {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}

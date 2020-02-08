@@ -84,6 +84,11 @@
   padding-left: 0.5rem;
 }
 
+/* Add a comma  */
+.header__skills-item:not(:last-child):after {
+  content: ",";
+}
+
 @media screen and (min-width: 600px) {
   .header__skills {
     width: 35%;
