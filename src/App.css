@@ -19,12 +19,13 @@ body {
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
   background: #f6f9fc;
   border-radius: 4px;
-
-  -webkit-animation: fadein 200ms; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 200ms; /* Firefox < 16 */
-  -ms-animation: fadein 200ms; /* Internet Explorer */
-  -o-animation: fadein 200ms; /* Opera < 12.1 */
-  animation: fadein 200ms;
+  opacity: 0;
+  transform: translateY(200px);
+  -webkit-animation: fadein 200ms forwards ease-in-out; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 200ms forwards ease-in-out; /* Firefox < 16 */
+  -ms-animation: fadein 200ms forwards ease-in-out; /* Internet Explorer */
+  -o-animation: fadein 200ms forwards ease-in-out; /* Opera < 12.1 */
+  animation: fadein 200ms forwards ease-in-out;
 }
 
 @media screen and (min-width: 600px) {
@@ -41,8 +42,10 @@ body {
 @keyframes fadein {
   from {
     opacity: 0;
+    transform: translateY(200px);
   }
   to {
     opacity: 1;
+    transform: translateY(0px);
   }
 }

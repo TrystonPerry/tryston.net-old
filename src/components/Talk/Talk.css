@@ -1,3 +1,7 @@
+.talk {
+  animation-delay: 200ms;
+}
+
 .talk h2 {
   margin-top: 0;
 }

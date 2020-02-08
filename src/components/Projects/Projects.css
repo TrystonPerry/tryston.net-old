@@ -1,3 +1,7 @@
+.projects {
+  animation-delay: 300ms;
+}
+
 .projects h2 {
   margin-top: 0;
 }
