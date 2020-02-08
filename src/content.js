@@ -35,7 +35,7 @@ export default {
       ],
       "Back-End": ["Node.js", "Express.js", "Socket.io", "MongoDB", "MySQL"],
       DevOps: ["AWS", "Digital Ocean", "PM2", "CI/CD", "Git", "Bash & SSH"],
-      Desgin: ["Adobe Photoshop", "Figma", "Adobe Illustrator"],
+      Design: ["Adobe Photoshop", "Figma", "Adobe Illustrator"],
       Other: ["Agile Development", "Unit Testing", "Pair/Mob Programming"]
     },
     action: {
