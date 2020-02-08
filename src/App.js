@@ -5,6 +5,7 @@ import Header from "./components/Header/Header.js";
 import WorkExperience from "./components/WorkExperience/WorkExperience.js";
 import Talk from "./components/Talk/Talk.js";
 import Projects from "./components/Projects/Projects.js";
+import Footer from "./components/Footer/Footer.js";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Talk />
         <Projects />
       </div>
+      <Footer />
     </div>
   );
 }

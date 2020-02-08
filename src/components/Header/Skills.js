@@ -19,6 +19,18 @@ export default class Skills extends React.Component {
       );
     };
 
-    return <div>{Object.keys(this.props.skills).map(renderSkill)}</div>;
+    return (
+      <div>
+        <div>{Object.keys(this.props.skills).map(renderSkill)}</div>
+        <a
+          href='http://resume.trystonperry.com'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='header__resume'
+        >
+          My Resume
+        </a>
+      </div>
+    );
   }
 }

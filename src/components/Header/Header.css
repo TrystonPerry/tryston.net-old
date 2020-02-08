@@ -1,8 +1,12 @@
 @media screen and (min-width: 600px) {
   .header {
     display: flex;
-    align-items: center;
   }
+}
+
+.header__content {
+  display: flex;
+  flex-direction: column;
 }
 
 .header__headshot {
@@ -24,6 +28,10 @@
 .header__section-label {
   margin: 1rem 0 0.5rem 0;
   font-size: 1.3rem;
+}
+
+.header__spacer {
+  flex-grow: 1;
 }
 
 .header__social {
@@ -52,12 +60,6 @@
   display: inline-block;
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
   transition-duration: 200ms;
-}
-
-@media screen and (min-width: 600px) {
-  .header__cta {
-    text-align: left;
-  }
 }
 
 .header__email-me:hover {
@@ -89,7 +91,20 @@
   content: ",";
 }
 
+.header__resume {
+  display: block;
+  margin: 1.5rem 0;
+}
+
 @media screen and (min-width: 600px) {
+  .header__cta {
+    text-align: left;
+  }
+
+  .header__cta a {
+    margin-bottom: 0;
+  }
+
   .header__skills {
     width: 35%;
     flex-shrink: 0;
@@ -100,5 +115,9 @@
   .header__skills-list {
     max-width: 200px;
     margin-left: auto;
+  }
+
+  .header__resume {
+    margin-bottom: 0;
   }
 }

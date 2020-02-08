@@ -15,7 +15,6 @@ export default {
       `
     },
     social: [
-      { text: "Resume", link: "http://resume.trystonperry.com" },
       { text: "Github", link: "https://github.com/trystonperry" },
       { text: "LinkedIn", link: "https://linkedin.com/in/trystonperry" },
       { text: "Twitter", link: "https://twitter.com/trystonperry" },
